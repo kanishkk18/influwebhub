@@ -21,11 +21,11 @@ const login = async (req, res) => {
             }
 
         } else {
-            res.status(200).json({ message: "Hello bhai padhai karlo" });
+            res.status(200).json({ message: "Hello " });
         }
     }
     else {
-        res.status(200).json({ message: "Abeyy Padhai likhai karo IAS~YAS Bano" });
+        res.status(200).json({ message: "connected" });
     }
 }
 
